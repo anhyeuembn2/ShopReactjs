@@ -1,0 +1,565 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Tea",
+      "createdAt": "2022-03-13T05:07:46.346Z",
+      "image": "http://res.cloudinary.com/levantuan/image/upload/v1644757211/assignment-js/dydnuwy6d0f7man8fbsn.png"
+    },
+    {
+      "name": "Milk Tea",
+      "image": "http://res.cloudinary.com/levantuan/image/upload/v1644757239/assignment-js/sjh5kfx67ixrpav4rwet.png",
+      "id": 2
+    },
+    {
+      "name": "Coffee",
+      "image": "http://res.cloudinary.com/levantuan/image/upload/v1644757260/assignment-js/q9gmm4aneutfvgxtzxqf.png",
+      "createdAt": "2022-02-08T12:06:48.706Z",
+      "id": 3
+    },
+    {
+      "name": "Bakery",
+      "image": "http://res.cloudinary.com/levantuan/image/upload/v1644757277/assignment-js/hdp664y2nsbeeycxjrgm.jpg",
+      "createdAt": "2022-02-09T16:38:10.591Z",
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "name": "Hồng trà macchiato",
+      "image": "http://res.cloudinary.com/levantuan/image/upload/v1645172420/assignment-js/djdwuozkvtckmxo002qt.png",
+      "price": 42000,
+      "description": "<p>Trà tranh mô tả</p>",
+      "status": 1,
+      "view": 6,
+      "favorites": 0,
+      "createdAt": "2022-02-09T14:58:57.401Z",
+      "updatedAt": "2022-02-18T08:59:05.730Z",
+      "id": 1,
+      "categoryId": 1
+    },
+    {
+      "name": "Trà vải nhiệt đới",
+      "image": "http://res.cloudinary.com/levantuan/image/upload/v1645172596/assignment-js/civnoyzmvtambfsjlhnp.png",
+      "price": 42000,
+      "description": "<p>Sự kết hợp giữa vị chua của Cam cùng sự ngọt ngào của trái Vải. Dư vị thanh mát của hồng tra tô điểm hoản hảo cho một chút vị chua, một chút ngọt của của 2 loại trái cây, cho một thức uống trái cây bắt mắt và vừa miệng khó cưỡng.</p>",
+      "status": 1,
+      "view": 244,
+      "favorites": 14,
+      "createdAt": "2022-02-09T14:58:57.401Z",
+      "updatedAt": "2022-02-18T08:23:16.641Z",
+      "id": 2,
+      "categoryId": 1,
+      "category": {
+        "name": "Milk Tea",
+        "image": "http://res.cloudinary.com/levantuan/image/upload/v1644757239/assignment-js/sjh5kfx67ixrpav4rwet.png",
+        "id": 2
+      }
+    },
+    {
+      "name": "Trà cam kim quất",
+      "image": "http://res.cloudinary.com/levantuan/image/upload/v1645172667/assignment-js/faa774aq8n4w8ax9flwf.png",
+      "price": 42000,
+      "description": "<p>Trà cam kim quất là sự kết hợp giữa vị chua chua của tắc, vị đậm của trà và kết hợp giữa hương thơm và vị ngọt ngọt của cam. Một ly hồng trà cam tắc sẽ giúp bạn giải khát và thư giãn hiệu quả.</p>",
+      "status": 1,
+      "view": 49,
+      "favorites": 12,
+      "createdAt": "2022-02-09T14:58:57.401Z",
+      "updatedAt": "2022-02-18T08:24:27.786Z",
+      "id": 3,
+      "categoryId": 2,
+      "category": {
+        "name": "Milk Tea",
+        "image": "http://res.cloudinary.com/levantuan/image/upload/v1644757239/assignment-js/sjh5kfx67ixrpav4rwet.png",
+        "id": 2
+      }
+    },
+    {
+      "name": "Trà dâu nữ hoàng",
+      "image": "http://res.cloudinary.com/levantuan/image/upload/v1645172713/assignment-js/z5bgto4mfwxh89b3s9ag.png",
+      "price": 42000,
+      "description": "<p>Dâu rừng có hình dáng dễ thương, màu sắc đẹp mắt và vị chua ngọt ăn hoài không ngán đã đốn tim nhiều bạn trẻ. Không chỉ dừng lại ở mức đẹp, ngon, dâu rừng còn là loại trái cây bổ dưỡng.</p><p>Trong dâu rừng chứa nhiều vitamin C – loại vitamin thần kì tăng sức đề kháng cho cơ thể và ngăn chặn quá trình lão hóa của cơ thể. Dâu rừng còn được xem là người bạn thân thiện của da. Các dưỡng chất có trong dâu tây giúp cho da luôn hồng hào, tươi trẻ.</p><p>Trà dâu nữ hoàng là sự kết hợp hài hòa giữa vị trà thanh mát cùng vị chua ngọt của trái dâu rừng sẽ tạo nên một thức uống tuyệt vời cho mọi người.</p>",
+      "status": 1,
+      "view": 68,
+      "favorites": 15,
+      "createdAt": "2022-02-09T14:58:57.401Z",
+      "updatedAt": "2022-02-18T08:25:14.050Z",
+      "id": 4,
+      "categoryId": 1,
+      "category": {
+        "name": "Milk Tea",
+        "image": "http://res.cloudinary.com/levantuan/image/upload/v1644757239/assignment-js/sjh5kfx67ixrpav4rwet.png",
+        "id": 2
+      }
+    },
+    {
+      "name": "Trà đào gừng",
+      "image": "http://res.cloudinary.com/levantuan/image/upload/v1645172791/assignment-js/fxbjbymklnxbobsrpjmo.png",
+      "price": 42000,
+      "description": "<p>Vào những ngày trời mưa bất thường của mùa thu, cơ thể chúng ta rất khó thích nghi và dễ dàng bị cảm lạnh. Vì vậy, một ly trà đào gừng mang hương vị của đào kết hợp mùi thơm của gừng chính là sự lựa chọn hoàn hảo cho bạn hoặc trong những ngày hè nắng nóng thức uống này được để lạnh kết hợp cùng đá viên, hương vị tuyết gừng sẽ càng mát lạnh và tuyệt vời.</p><p><br>&nbsp;</p>",
+      "status": 1,
+      "view": 90,
+      "favorites": 13,
+      "createdAt": "2022-02-09T14:58:57.401Z",
+      "updatedAt": "2022-02-18T08:26:32.062Z",
+      "id": 5,
+      "categoryId": 1,
+      "category": {
+        "name": "Milk Tea",
+        "image": "http://res.cloudinary.com/levantuan/image/upload/v1644757239/assignment-js/sjh5kfx67ixrpav4rwet.png",
+        "id": 2
+      }
+    },
+    {
+      "name": "Trà đào cam sả",
+      "image": "http://res.cloudinary.com/levantuan/image/upload/v1645172839/assignment-js/nn8ihjlm91ke9ea2ewdd.png",
+      "price": 30000,
+      "description": "<p>• Trà đào cam sả là một thức uống giải nhiệt cực tốt.</p><p>• Hương thơm từ sả rất hợp khi đi cùng cam, một phần cam để nguyên vỏ giữ được lượng tinh dầu trong vỏ cam để hòa quyện cùng sả tạo nên một hương thơm rất lạ. Khi thưởng thức bạn không chỉ bị mê bởi hương thơm đó mà bạn sẽ bị mê mẩn&nbsp;hương vị chua ngọt của ly trà đào quyện mùi sả độc đáo của Pozaa Tea.</p>",
+      "status": 1,
+      "view": 512,
+      "favorites": 20,
+      "createdAt": "2022-02-09T14:58:57.401Z",
+      "updatedAt": "2022-02-18T08:27:19.775Z",
+      "id": 6,
+      "categoryId": 1,
+      "category": {
+        "name": "Milk Tea",
+        "image": "http://res.cloudinary.com/levantuan/image/upload/v1644757239/assignment-js/sjh5kfx67ixrpav4rwet.png",
+        "id": 2
+      }
+    },
+    {
+      "name": "Trà sữa ô long bạch kim",
+      "image": "http://res.cloudinary.com/levantuan/image/upload/v1645172924/assignment-js/ntnmsjdifbepbbbelzvq.png",
+      "price": 37000,
+      "description": "<p>Vào những ngày trời mưa bất thường của mùa thu, cơ thể chúng ta rất khó thích nghi và dễ dàng bị cảm lạnh. Vì vậy, một ly trà đào gừng mang hương vị của đào kết hợp mùi thơm của gừng chính là sự lựa chọn hoàn hảo cho bạn hoặc trong những ngày hè nắng nóng thức uống này được để lạnh kết hợp cùng đá viên, hương vị tuyết gừng sẽ càng mát lạnh và tuyệt vời.</p>",
+      "status": 1,
+      "view": 6,
+      "favorites": 0,
+      "createdAt": "2022-02-09T14:58:57.401Z",
+      "updatedAt": "2022-02-18T08:28:43.945Z",
+      "id": 7,
+      "categoryId": 2
+    },
+    {
+      "name": "Trà sữa thạch dứa nhiệt đới",
+      "image": "http://res.cloudinary.com/levantuan/image/upload/v1645173011/assignment-js/fymplkrpyrtwgmrboyc5.png",
+      "price": 20000,
+      "description": "<p>Vào những ngày trời mưa bất thường của mùa thu, cơ thể chúng ta rất khó thích nghi và dễ dàng bị cảm lạnh. Vì vậy, một ly trà đào gừng mang hương vị của đào kết hợp mùi thơm của gừng chính là sự lựa chọn hoàn hảo cho bạn hoặc trong những ngày hè nắng nóng thức uống này được để lạnh kết hợp cùng đá viên, hương vị tuyết gừng sẽ càng mát lạnh và tuyệt vời.</p>",
+      "categoryId": 2,
+      "status": 1,
+      "view": 2,
+      "favorites": 0,
+      "createdAt": "2022-02-18T08:30:12.380Z",
+      "updatedAt": "2022-02-18T08:30:12.380Z",
+      "id": 8
+    },
+    {
+      "name": "Trà sữa thạch Kiwi",
+      "image": "http://res.cloudinary.com/levantuan/image/upload/v1645173071/assignment-js/anopomwnzuu8fxgn3wkr.png",
+      "price": 20000,
+      "description": "<p>Vào những ngày trời mưa bất thường của mùa thu, cơ thể chúng ta rất khó thích nghi và dễ dàng bị cảm lạnh. Vì vậy, một ly trà đào gừng mang hương vị của đào kết hợp mùi thơm của gừng chính là sự lựa chọn hoàn hảo cho bạn hoặc trong những ngày hè nắng nóng thức uống này được để lạnh kết hợp cùng đá viên, hương vị tuyết gừng sẽ càng mát lạnh và tuyệt vời.</p>",
+      "categoryId": 2,
+      "status": 1,
+      "view": 1,
+      "favorites": 1,
+      "createdAt": "2022-02-18T08:31:13.125Z",
+      "updatedAt": "2022-02-18T08:31:13.125Z",
+      "id": 9,
+      "category": {
+        "name": "Milk Tea",
+        "image": "http://res.cloudinary.com/levantuan/image/upload/v1644757239/assignment-js/sjh5kfx67ixrpav4rwet.png",
+        "id": 2
+      }
+    },
+    {
+      "name": "Trà sữa Thạch Nam việt quất",
+      "image": "http://res.cloudinary.com/levantuan/image/upload/v1645173127/assignment-js/qctktruxgfj6gpqdwbfc.png",
+      "price": 34000,
+      "description": "<p>Vào những ngày trời mưa bất thường của mùa thu, cơ thể chúng ta rất khó thích nghi và dễ dàng bị cảm lạnh. Vì vậy, một ly trà đào gừng mang hương vị của đào kết hợp mùi thơm của gừng chính là sự lựa chọn hoàn hảo cho bạn hoặc trong những ngày hè nắng nóng thức uống này được để lạnh kết hợp cùng đá viên, hương vị tuyết gừng sẽ càng mát lạnh và tuyệt vời.</p>",
+      "categoryId": 4,
+      "status": 1,
+      "view": 2,
+      "favorites": 0,
+      "createdAt": "2022-02-18T08:32:08.852Z",
+      "updatedAt": "2022-02-18T08:32:08.852Z",
+      "id": 10
+    },
+    {
+      "name": "Trà sữa Thạch Đào Bồng Lai",
+      "image": "http://res.cloudinary.com/levantuan/image/upload/v1645173183/assignment-js/edpmjjyd7yzhqw5nl9k2.png",
+      "price": 24000,
+      "description": "<p>Vào những ngày trời mưa bất thường của mùa thu, cơ thể chúng ta rất khó thích nghi và dễ dàng bị cảm lạnh. Vì vậy, một ly trà đào gừng mang hương vị của đào kết hợp mùi thơm của gừng chính là sự lựa chọn hoàn hảo cho bạn hoặc trong những ngày hè nắng nóng thức uống này được để lạnh kết hợp cùng đá viên, hương vị tuyết gừng sẽ càng mát lạnh và tuyệt vời.</p>",
+      "categoryId": 2,
+      "status": 1,
+      "view": 0,
+      "favorites": 0,
+      "createdAt": "2022-02-18T08:33:04.480Z",
+      "updatedAt": "2022-02-18T08:33:04.480Z",
+      "id": 11
+    },
+    {
+      "name": "Trà sữa nha đam Sahaki",
+      "image": "http://res.cloudinary.com/levantuan/image/upload/v1645173219/assignment-js/dxvkdqcxlp81t7xu0r23.png",
+      "price": 30000,
+      "description": "<p>Vào những ngày trời mưa bất thường của mùa thu, cơ thể chúng ta rất khó thích nghi và dễ dàng bị cảm lạnh. Vì vậy, một ly trà đào gừng mang hương vị của đào kết hợp mùi thơm của gừng chính là sự lựa chọn hoàn hảo cho bạn hoặc trong những ngày hè nắng nóng thức uống này được để lạnh kết hợp cùng đá viên, hương vị tuyết gừng sẽ càng mát lạnh và tuyệt vời.</p>",
+      "categoryId": 2,
+      "status": 1,
+      "view": 4,
+      "favorites": 1,
+      "createdAt": "2022-02-18T08:33:41.389Z",
+      "updatedAt": "2022-02-18T08:33:41.389Z",
+      "id": 12,
+      "ratings": [],
+      "category": {
+        "name": "Milk Tea",
+        "image": "http://res.cloudinary.com/levantuan/image/upload/v1644757239/assignment-js/sjh5kfx67ixrpav4rwet.png",
+        "id": 2
+      }
+    },
+    {
+      "name": "Trà sữa Pudding Akako",
+      "image": "http://res.cloudinary.com/levantuan/image/upload/v1645173256/assignment-js/mitu5h54f6iqewtncqud.png",
+      "price": 30000,
+      "description": "<p>Vào những ngày trời mưa bất thường của mùa thu, cơ thể chúng ta rất khó thích nghi và dễ dàng bị cảm lạnh. Vì vậy, một ly trà đào gừng mang hương vị của đào kết hợp mùi thơm của gừng chính là sự lựa chọn hoàn hảo cho bạn hoặc trong những ngày hè nắng nóng thức uống này được để lạnh kết hợp cùng đá viên, hương vị tuyết gừng sẽ càng mát lạnh và tuyệt vời.</p>",
+      "categoryId": 2,
+      "status": 1,
+      "view": 0,
+      "favorites": 0,
+      "createdAt": "2022-02-18T08:34:18.269Z",
+      "updatedAt": "2022-02-18T08:34:18.269Z",
+      "id": 13
+    },
+    {
+      "name": "Trà sữa cafe thượng hạng",
+      "image": "http://res.cloudinary.com/levantuan/image/upload/v1645173289/assignment-js/yp5wmufjwhwpbcumnge4.png",
+      "price": 35000,
+      "description": "<p>Vào những ngày trời mưa bất thường của mùa thu, cơ thể chúng ta rất khó thích nghi và dễ dàng bị cảm lạnh. Vì vậy, một ly trà đào gừng mang hương vị của đào kết hợp mùi thơm của gừng chính là sự lựa chọn hoàn hảo cho bạn hoặc trong những ngày hè nắng nóng thức uống này được để lạnh kết hợp cùng đá viên, hương vị tuyết gừng sẽ càng mát lạnh và tuyệt vời.</p>",
+      "categoryId": 4,
+      "status": 1,
+      "view": 2,
+      "favorites": 0,
+      "createdAt": "2022-02-18T08:34:50.858Z",
+      "updatedAt": "2022-02-18T08:34:50.858Z",
+      "id": 14
+    },
+    {
+      "name": "Trà sữa caramel",
+      "image": "http://res.cloudinary.com/levantuan/image/upload/v1645173839/assignment-js/jxofrse008bncyj6ejww.png",
+      "price": 34000,
+      "description": "<p>Vào những ngày trời mưa bất thường của mùa thu, cơ thể chúng ta rất khó thích nghi và dễ dàng bị cảm lạnh. Vì vậy, một ly trà đào gừng mang hương vị của đào kết hợp mùi thơm của gừng chính là sự lựa chọn hoàn hảo cho bạn hoặc trong những ngày hè nắng nóng thức uống này được để lạnh kết hợp cùng đá viên, hương vị tuyết gừng sẽ càng mát lạnh và tuyệt vời.</p>",
+      "categoryId": 2,
+      "status": 1,
+      "view": 1,
+      "favorites": 0,
+      "createdAt": "2022-02-18T08:44:00.649Z",
+      "updatedAt": "2022-02-18T08:44:00.649Z",
+      "id": 15
+    },
+    {
+      "name": "Trà sữa socola",
+      "image": "http://res.cloudinary.com/levantuan/image/upload/v1645173898/assignment-js/zszteiclgqgnvcwtcgr7.png",
+      "price": 40000,
+      "description": "<p>Vào những ngày trời mưa bất thường của mùa thu, cơ thể chúng ta rất khó thích nghi và dễ dàng bị cảm lạnh. Vì vậy, một ly trà đào gừng mang hương vị của đào kết hợp mùi thơm của gừng chính là sự lựa chọn hoàn hảo cho bạn hoặc trong những ngày hè nắng nóng thức uống này được để lạnh kết hợp cùng đá viên, hương vị tuyết gừng sẽ càng mát lạnh và tuyệt vời.</p>",
+      "categoryId": 2,
+      "status": 1,
+      "view": 95,
+      "favorites": 3,
+      "createdAt": "2022-02-18T08:44:59.658Z",
+      "updatedAt": "2022-02-18T08:44:59.658Z",
+      "id": 39,
+      "ratings": [
+        {
+          "userId": 1,
+          "productId": 39,
+          "ratingNumber": 5,
+          "createdAt": "2022-02-20T07:35:39.985Z",
+          "id": 8
+        }
+      ],
+      "category": {
+        "name": "Milk Tea",
+        "image": "http://res.cloudinary.com/levantuan/image/upload/v1644757239/assignment-js/sjh5kfx67ixrpav4rwet.png",
+        "id": 2
+      }
+    },
+    {
+      "name": " Trà sữa dâu nữ hoàng",
+      "image": "http://res.cloudinary.com/levantuan/image/upload/v1645173932/assignment-js/ij3btyfk7fwekvmmwbe6.png",
+      "price": 25000,
+      "description": "<p>Vào những ngày trời mưa bất thường của mùa thu, cơ thể chúng ta rất khó thích nghi và dễ dàng bị cảm lạnh. Vì vậy, một ly trà đào gừng mang hương vị của đào kết hợp mùi thơm của gừng chính là sự lựa chọn hoàn hảo cho bạn hoặc trong những ngày hè nắng nóng thức uống này được để lạnh kết hợp cùng đá viên, hương vị tuyết gừng sẽ càng mát lạnh và tuyệt vời.</p>",
+      "categoryId": 4,
+      "status": 1,
+      "view": 13,
+      "favorites": 1,
+      "createdAt": "2022-02-18T08:45:34.389Z",
+      "updatedAt": "2022-02-18T08:45:49.967Z",
+      "id": 38,
+      "ratings": [
+        {
+          "userId": 1,
+          "productId": 38,
+          "ratingNumber": 1,
+          "createdAt": "2022-02-20T07:36:03.984Z",
+          "id": 9
+        }
+      ],
+      "category": {
+        "name": "Milk Tea",
+        "image": "http://res.cloudinary.com/levantuan/image/upload/v1644757239/assignment-js/sjh5kfx67ixrpav4rwet.png",
+        "id": 2
+      }
+    },
+    {
+      "name": "Trà sữa ô long Bạc hà",
+      "image": "http://res.cloudinary.com/levantuan/image/upload/v1645173990/assignment-js/rhp6jtqptdqxb3e00cjd.png",
+      "price": 45000,
+      "description": "<p>Vào những ngày trời mưa bất thường của mùa thu, cơ thể chúng ta rất khó thích nghi và dễ dàng bị cảm lạnh. Vì vậy, một ly trà đào gừng mang hương vị của đào kết hợp mùi thơm của gừng chính là sự lựa chọn hoàn hảo cho bạn hoặc trong những ngày hè nắng nóng thức uống này được để lạnh kết hợp cùng đá viên, hương vị tuyết gừng sẽ càng mát lạnh và tuyệt vời.</p>",
+      "categoryId": 4,
+      "status": 1,
+      "view": 20,
+      "favorites": 0,
+      "createdAt": "2022-02-18T08:46:32.004Z",
+      "updatedAt": "2022-02-18T08:46:32.004Z",
+      "id": 37
+    },
+    {
+      "name": "Trà sữa YoTea",
+      "image": "http://res.cloudinary.com/levantuan/image/upload/v1645174023/assignment-js/fbcyvdf0y80ua73pbrkt.png",
+      "price": 24000,
+      "description": "<p>Vào những ngày trời mưa bất thường của mùa thu, cơ thể chúng ta rất khó thích nghi và dễ dàng bị cảm lạnh. Vì vậy, một ly trà đào gừng mang hương vị của đào kết hợp mùi thơm của gừng chính là sự lựa chọn hoàn hảo cho bạn hoặc trong những ngày hè nắng nóng thức uống này được để lạnh kết hợp cùng đá viên, hương vị tuyết gừng sẽ càng mát lạnh và tuyệt vời.</p>",
+      "categoryId": 2,
+      "status": 1,
+      "view": 6,
+      "favorites": 0,
+      "createdAt": "2022-02-18T08:47:04.929Z",
+      "updatedAt": "2022-02-18T08:47:04.929Z",
+      "id": 36
+    },
+    {
+      "name": "Trà sữa trân châu nghệ nhân",
+      "image": "http://res.cloudinary.com/levantuan/image/upload/v1645174052/assignment-js/yw38phxe4qba8vmlxqtu.png",
+      "price": 35000,
+      "description": "<p>Vào những ngày trời mưa bất thường của mùa thu, cơ thể chúng ta rất khó thích nghi và dễ dàng bị cảm lạnh. Vì vậy, một ly trà đào gừng mang hương vị của đào kết hợp mùi thơm của gừng chính là sự lựa chọn hoàn hảo cho bạn hoặc trong những ngày hè nắng nóng thức uống này được để lạnh kết hợp cùng đá viên, hương vị tuyết gừng sẽ càng mát lạnh và tuyệt vời.</p>",
+      "categoryId": 2,
+      "status": 1,
+      "view": 15,
+      "favorites": 2,
+      "createdAt": "2022-02-18T08:47:34.029Z",
+      "updatedAt": "2022-02-18T08:47:34.029Z",
+      "id": 35,
+      "category": {
+        "name": "Milk Tea",
+        "image": "http://res.cloudinary.com/levantuan/image/upload/v1644757239/assignment-js/sjh5kfx67ixrpav4rwet.png",
+        "id": 2
+      },
+      "ratings": []
+    },
+    {
+      "name": "Trà sữa matcha Machiato",
+      "image": "http://res.cloudinary.com/levantuan/image/upload/v1645174087/assignment-js/jsmtnckdg0dhchnsdayb.png",
+      "price": 35000,
+      "description": "<p>Vào những ngày trời mưa bất thường của mùa thu, cơ thể chúng ta rất khó thích nghi và dễ dàng bị cảm lạnh. Vì vậy, một ly trà đào gừng mang hương vị của đào kết hợp mùi thơm của gừng chính là sự lựa chọn hoàn hảo cho bạn hoặc trong những ngày hè nắng nóng thức uống này được để lạnh kết hợp cùng đá viên, hương vị tuyết gừng sẽ càng mát lạnh và tuyệt vời.</p>",
+      "categoryId": 2,
+      "status": 1,
+      "view": 9,
+      "favorites": 0,
+      "createdAt": "2022-02-18T08:48:09.048Z",
+      "updatedAt": "2022-02-18T08:48:09.048Z",
+      "id": 34
+    },
+    {
+      "name": " Sữa tươi trân châu đường đen",
+      "image": "http://res.cloudinary.com/levantuan/image/upload/v1645174124/assignment-js/jhjaupfuamswq6v8vw9b.png",
+      "price": 28000,
+      "description": "<p>Vào những ngày trời mưa bất thường của mùa thu, cơ thể chúng ta rất khó thích nghi và dễ dàng bị cảm lạnh. Vì vậy, một ly trà đào gừng mang hương vị của đào kết hợp mùi thơm của gừng chính là sự lựa chọn hoàn hảo cho bạn hoặc trong những ngày hè nắng nóng thức uống này được để lạnh kết hợp cùng đá viên, hương vị tuyết gừng sẽ càng mát lạnh và tuyệt vời.</p>",
+      "categoryId": 2,
+      "status": 1,
+      "view": 21,
+      "favorites": 1,
+      "createdAt": "2022-02-18T08:48:45.769Z",
+      "updatedAt": "2022-02-18T08:48:45.769Z",
+      "id": 33,
+      "ratings": [
+        {
+          "userId": 6,
+          "productId": 22,
+          "ratingNumber": 5,
+          "createdAt": "2022-02-18T15:05:51.789Z",
+          "id": 6
+        }
+      ],
+      "category": {
+        "name": "Milk Tea",
+        "image": "http://res.cloudinary.com/levantuan/image/upload/v1644757239/assignment-js/sjh5kfx67ixrpav4rwet.png",
+        "id": 2
+      }
+    },
+    {
+      "name": "Trà sữa khoai môn Macchiato",
+      "image": "http://res.cloudinary.com/levantuan/image/upload/v1645174710/assignment-js/vizgnh3brvcvqkin1mfi.png",
+      "price": 25000,
+      "description": "<p>Vào những ngày trời mưa bất thường của mùa thu, cơ thể chúng ta rất khó thích nghi và dễ dàng bị cảm lạnh. Vì vậy, một ly trà đào gừng mang hương vị của đào kết hợp mùi thơm của gừng chính là sự lựa chọn hoàn hảo cho bạn hoặc trong những ngày hè nắng nóng thức uống này được để lạnh kết hợp cùng đá viên, hương vị tuyết gừng sẽ càng mát lạnh và tuyệt vời.</p>",
+      "categoryId": 2,
+      "status": 1,
+      "view": 15,
+      "favorites": 0,
+      "createdAt": "2022-02-18T08:58:32.229Z",
+      "updatedAt": "2022-02-18T08:58:32.229Z",
+      "id": 32
+    },
+    {
+      "name": "Cà phê Macchiato",
+      "image": "http://res.cloudinary.com/levantuan/image/upload/v1645174832/assignment-js/t5zawg6znsphvslnm6kv.png",
+      "price": 32000,
+      "description": "<p>Vào những ngày trời mưa bất thường của mùa thu, cơ thể chúng ta rất khó thích nghi và dễ dàng bị cảm lạnh. Vì vậy, một ly trà đào gừng mang hương vị của đào kết hợp mùi thơm của gừng chính là sự lựa chọn hoàn hảo cho bạn hoặc trong những ngày hè nắng nóng thức uống này được để lạnh kết hợp cùng đá viên, hương vị tuyết gừng sẽ càng mát lạnh và tuyệt vời.</p>",
+      "categoryId": 3,
+      "status": 1,
+      "view": 1,
+      "favorites": 0,
+      "createdAt": "2022-02-18T09:00:33.976Z",
+      "updatedAt": "2022-02-18T09:00:33.976Z",
+      "id": 24
+    },
+    {
+      "name": "Bạc xỉu",
+      "image": "http://res.cloudinary.com/levantuan/image/upload/v1645174868/assignment-js/w2ef831cpj2lhv6mrhbx.png",
+      "price": 40000,
+      "description": "<p>Vào những ngày trời mưa bất thường của mùa thu, cơ thể chúng ta rất khó thích nghi và dễ dàng bị cảm lạnh. Vì vậy, một ly trà đào gừng mang hương vị của đào kết hợp mùi thơm của gừng chính là sự lựa chọn hoàn hảo cho bạn hoặc trong những ngày hè nắng nóng thức uống này được để lạnh kết hợp cùng đá viên, hương vị tuyết gừng sẽ càng mát lạnh và tuyệt vời.</p>",
+      "categoryId": 3,
+      "status": 1,
+      "view": 3,
+      "favorites": 0,
+      "createdAt": "2022-02-18T09:01:09.743Z",
+      "updatedAt": "2022-02-18T09:01:09.743Z",
+      "id": 25
+    },
+    {
+      "name": "Cà phê sữa",
+      "image": "http://res.cloudinary.com/levantuan/image/upload/v1645174898/assignment-js/yr9ckb2hene4en5rpquy.png",
+      "price": 35000,
+      "description": "<p>Vào những ngày trời mưa bất thường của mùa thu, cơ thể chúng ta rất khó thích nghi và dễ dàng bị cảm lạnh. Vì vậy, một ly trà đào gừng mang hương vị của đào kết hợp mùi thơm của gừng chính là sự lựa chọn hoàn hảo cho bạn hoặc trong những ngày hè nắng nóng thức uống này được để lạnh kết hợp cùng đá viên, hương vị tuyết gừng sẽ càng mát lạnh và tuyệt vời.</p>",
+      "categoryId": 3,
+      "status": 1,
+      "view": 2,
+      "favorites": 0,
+      "createdAt": "2022-02-18T09:01:40.108Z",
+      "updatedAt": "2022-02-18T09:01:40.108Z",
+      "id": 26
+    },
+    {
+      "name": "Cà phê Expresso",
+      "image": "http://res.cloudinary.com/levantuan/image/upload/v1645174931/assignment-js/ladlnmosfnan9wor8nsw.png",
+      "price": 25000,
+      "description": "<p>Vào những ngày trời mưa bất thường của mùa thu, cơ thể chúng ta rất khó thích nghi và dễ dàng bị cảm lạnh. Vì vậy, một ly trà đào gừng mang hương vị của đào kết hợp mùi thơm của gừng chính là sự lựa chọn hoàn hảo cho bạn hoặc trong những ngày hè nắng nóng thức uống này được để lạnh kết hợp cùng đá viên, hương vị tuyết gừng sẽ càng mát lạnh và tuyệt vời.</p>",
+      "categoryId": 3,
+      "status": 1,
+      "view": 10,
+      "favorites": 0,
+      "createdAt": "2022-02-18T09:02:12.743Z",
+      "updatedAt": "2022-02-18T09:49:51.577Z",
+      "id": 27
+    },
+    {
+      "name": "Cà phê Americano",
+      "image": "http://res.cloudinary.com/levantuan/image/upload/v1645174968/assignment-js/bkeqcbwtauxp4f0tqwqv.png",
+      "price": 38000,
+      "description": "<p>Vào những ngày trời mưa bất thường của mùa thu, cơ thể chúng ta rất khó thích nghi và dễ dàng bị cảm lạnh. Vì vậy, một ly trà đào gừng mang hương vị của đào kết hợp mùi thơm của gừng chính là sự lựa chọn hoàn hảo cho bạn hoặc trong những ngày hè nắng nóng thức uống này được để lạnh kết hợp cùng đá viên, hương vị tuyết gừng sẽ càng mát lạnh và tuyệt vời.</p>",
+      "categoryId": 3,
+      "status": 1,
+      "view": 1,
+      "favorites": 0,
+      "createdAt": "2022-02-18T09:02:49.854Z",
+      "updatedAt": "2022-02-18T09:02:49.854Z",
+      "id": 28
+    },
+    {
+      "name": "Cà phê đen",
+      "image": "http://res.cloudinary.com/levantuan/image/upload/v1645174998/assignment-js/e9oxu0lw1rj86a4a7kjl.png",
+      "price": 32000,
+      "description": "<p>Vào những ngày trời mưa bất thường của mùa thu, cơ thể chúng ta rất khó thích nghi và dễ dàng bị cảm lạnh. Vì vậy, một ly trà đào gừng mang hương vị của đào kết hợp mùi thơm của gừng chính là sự lựa chọn hoàn hảo cho bạn hoặc trong những ngày hè nắng nóng thức uống này được để lạnh kết hợp cùng đá viên, hương vị tuyết gừng sẽ càng mát lạnh và tuyệt vời.</p>",
+      "categoryId": 3,
+      "status": 1,
+      "view": 12,
+      "favorites": 0,
+      "createdAt": "2022-02-18T09:03:19.524Z",
+      "updatedAt": "2022-02-18T09:03:19.524Z",
+      "id": 29
+    },
+    {
+      "name": "Cà phê Mocha",
+      "image": "http://res.cloudinary.com/levantuan/image/upload/v1645175030/assignment-js/ytwok9j9opoixqxuehee.png",
+      "price": 50000,
+      "description": "<p>Vào những ngày trời mưa bất thường của mùa thu, cơ thể chúng ta rất khó thích nghi và dễ dàng bị cảm lạnh. Vì vậy, một ly trà đào gừng mang hương vị của đào kết hợp mùi thơm của gừng chính là sự lựa chọn hoàn hảo cho bạn hoặc trong những ngày hè nắng nóng thức uống này được để lạnh kết hợp cùng đá viên, hương vị tuyết gừng sẽ càng mát lạnh và tuyệt vời.</p>",
+      "categoryId": 3,
+      "status": 1,
+      "view": 36,
+      "favorites": 0,
+      "createdAt": "2022-02-18T09:03:52.323Z",
+      "updatedAt": "2022-02-18T09:03:52.323Z",
+      "id": 30
+    },
+    
+    {
+      "name": "Cà phê Latte",
+      "image": "http://res.cloudinary.com/levantuan/image/upload/v1645175065/assignment-js/gwoatpyyazwdplh5lrph.png",
+      "price": 45000,
+      "description": "<p>Vào những ngày trời mưa bất thường của mùa thu, cơ thể chúng ta rất khó thích nghi và dễ dàng bị cảm lạnh. Vì vậy, một ly trà đào gừng mang hương vị của đào kết hợp mùi thơm của gừng chính là sự lựa chọn hoàn hảo cho bạn hoặc trong những ngày hè nắng nóng thức uống này được để lạnh kết hợp cùng đá viên, hương vị tuyết gừng sẽ càng mát lạnh và tuyệt vời.</p>",
+      "categoryId": 3,
+      "status": 1,
+      "view": 29,
+      "favorites": 1,
+      "createdAt": "2022-02-18T09:04:27.177Z",
+      "updatedAt": "2022-02-18T09:04:27.177Z",
+      "id": 31,
+      "ratings": [
+        {
+          "userId": 1,
+          "productId": 31,
+          "ratingNumber": 2,
+          "createdAt": "2022-02-18T12:33:13.176Z",
+          "id": 4
+        }
+      ],
+      "category": {
+        "name": "Coffee",
+        "image": "http://res.cloudinary.com/levantuan/image/upload/v1644757260/assignment-js/q9gmm4aneutfvgxtzxqf.png",
+        "createdAt": "2022-02-08T12:06:48.706Z",
+        "id": 3
+      }
+    },
+    {
+      "name": "Trà tranh nek",
+      "image": "http://res.cloudinary.com/levantuan/image/upload/v1645411631/assignment-js/bl8ukr5uvtezwaavwx9k.jpg",
+      "price": 123,
+      "description": "<p>abc</p>",
+      "categoryId": 3,
+      "status": 0,
+      "view": 0,
+      "favorites": 0,
+      "createdAt": "2022-02-21T02:47:10.990Z",
+      "updatedAt": "2022-02-21T02:47:10.990Z",
+      "id": 40
+    }
+    
+    
+    
+  ],
+  "users": [
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$h6qi97TOAeV.QR0KQVMMYOsbVvCOh571TKbfdpiufWoIM4nviFpk.",
+      "id": 1
+    },
+    {
+      "email": "trieu12@gmail.com",
+      "password": "$2a$10$KrbBB68d48jr.N6WOhH8oOlAHouNxhbdUMq2HIkOvjL3kASGJO82C",
+      "id": 2
+    },
+    {
+      "email": "2020604195@gmail.com",
+      "password": "$2a$10$OiTEKzN4tLqrx9hXvREBx.rqX9ED/T1CPfOw0OYsHEQh653fcw/q2",
+      "id": 3
+    }
+  ]
+}
